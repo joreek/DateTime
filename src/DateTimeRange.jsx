@@ -52,6 +52,7 @@ export default function DateTimeRange() {
           placeholder="Время начала"
         />
       </Col>
+      <Col>—</Col>
       <Col>
         <DateInput
           value={endDate}

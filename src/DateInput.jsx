@@ -6,6 +6,7 @@ export default function DateInput({ value, onChange, placeholder }) {
       <DatePicker
         value={value}
         onChange={onChange}
+        format="DD.MM.YYYY"
         placeholder={placeholder}
       />
     </div>
