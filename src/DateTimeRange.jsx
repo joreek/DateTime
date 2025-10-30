@@ -64,7 +64,7 @@ export default function DateTimeRange() {
         <TimeInput
           value={endTime}
           onChange={handleEndTimeChange}
-          placeholder="Время конца"
+          placeholder="Конец времен"
         />
       </Col>
     </Row>
